@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Guns N' Roses | Rock Band  </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Spectral+SC:300,400,400i,500,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand">GUNS N' ROSES</a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="music.html">Music</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="funclub.html">Fan club</a></li>
+                            <li><a href="bookus.html">Book us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section >
+            <div class="container-fluid bookus-section">
+                <div class="question">
+                    <h3 class="text-center">Want Guns n'roses to play live at your event?</h3>
+                    <h5 class="text-center">Complete the form below</h5>
+                </div>
+                <div class="center-form">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <legend>About you</legend>
+                            <label for="fullname" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="usertel" class="col-sm-2 control-label">Mobile</label>
+                            <div class="col-sm-10">
+                                <input type="number"  name="usertel" class="form-control" id="usertel" placeholder="Mobile number (include prefix)" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email"  name="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                        </div
+                    </form>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <legend>About your Event</legend>
+                            <label for="eventsummary" class="col-sm-2 control-label">Event Description</label>
+                            <div class="col-sm-10">
+                                <textarea rows="5" name="eventsummary" class="form-control" id="eventsummary" placeholder="Event Description (include start and end times)" required ></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventdate" class="col-sm-2 control-label">Event Date</label>
+                            <div class="col-sm-10">
+                                <input type="date"  name="eventdate" class="form-control" id="eventdate" min="2018-01-01" max="2018-12-20" placeholder="Event Date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventlocation" class="col-sm-2 control-label">Event Location</label>
+                            <div class="col-sm-10">
+                                <input type="text"  name="eventlocation" class="form-control" id="eventlocation" placeholder="Event Location" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-secondary center-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://pbs.twimg.com/profile_images/885491686327169024/ufh03Wmg_400x400.jpg" alt="logo" class="footer-logo">
+                </div>
+                <div class="col-md-4 ">
+                    <h5>Awards and Recognition</h5>
+                    <ul class="list-inline awards-section">
+                        <li><img src="worldmusicawards.jpg" alt="world music awards logo" class="awards-img"></li>
+                        <li><img src="MTVAwards Logo.jpg" alt="MTV Awards logo" class="awards-img"></li>
+                        <li><img src="americanmusicawardslogo.jpg" alt="american music awards logo" class="awards-img"></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect with us</h5>
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank" href="https://www.facebook.com/gunsnroses"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/gunsnroses/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/gunsnroses"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/user/GunsNRosesVEVO"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </footer>
+    </body>
+</html>

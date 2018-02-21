@@ -1,0 +1,413 @@
+/*--------------------------------------------------Navigation bar */
+.navbar {
+	margin-bottom: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, .5);
+	border: 0;
+}
+
+.navbar-default .navbar-brand {
+	color: #f70438;
+	font-family: "Spectral SC", serif;
+	font-weight: 800;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #ff7b25;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fafafa;
+	font-family: "Spectral SC", serif;
+	font-weight: 500;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ff7b25;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+/*---------------------------------------------Home page section*/
+.callout-container {
+	height: 100vh;
+	background: url('Guns-N-Roses.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.jumbotron {
+	background-color: transparent;
+	animation: move 2s 1 ease-in-out;
+}
+
+.jumbotron h1 {
+	color: #f70438;
+	font-family: "Spectral SC", serif;
+}
+
+.jumbotron p {
+	color: #fafafa;
+	text-shadow: 3px 2px #1a0000;
+	font-family: "Spectral SC", serif;
+	font-weight: 600;
+}
+
+mark {
+	background-color: #010103;
+	color: #ff7b25;
+}
+
+audio {
+	width: 200px;
+}
+
+@keyframes move {
+	from {
+		transform: scale(0);
+	}
+
+	to {
+		transform: scale(1);
+	}
+
+}
+
+/*---------------------------------------------About us page*/
+.about-section {
+	background: url('about-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+
+}
+
+.scroll {
+	margin-top: 5rem;
+
+}
+
+.scroll-image {
+}
+
+.about-text {
+	position: relative;
+	text-align: center;
+}
+
+.info-text {
+	padding-top: 0.5rem;
+	color: #000000;
+	font-family: "Spectral SC", serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.thumbnail {
+	background: transparent;
+	border: none;
+	line-height: none;
+}
+
+.thumbnail .caption {
+	padding: 9px;
+	color: #d99438;
+	text-align: center;
+}
+
+.caption h3 {
+	font-family: "Spectral SC", serif;
+	font-weight: 800;
+	font-size: 2em;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px #000000;
+}
+
+.caption p {
+	font-family: "Spectral SC", serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px #000000;
+}
+
+/*---------------------------------------------Music page*/
+.music-section {
+	background: url('about-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-rounded {
+	max-width: 100%;
+	height: auto;
+	margin-top: 5em;
+	margin-bottom: 2em;
+}
+
+th {
+	color: #fafafa;
+	text-align: center;
+	font-family: "Spectral SC", serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+.table-hover>tbody>tr:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.table>tbody>tr>th {
+	padding-left: 12px;
+}
+
+/*---------------------------------------------Videos page*/
+.videos-section {
+	background: url('about-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+
+
+
+
+}
+
+.videos {
+	margin-top: 5em;
+
+
+}
+
+#speaker {
+	float: left;
+	position: sticky;
+	top: 0;
+	margin-top: 5em;
+}
+
+#speakers {
+	float: right;
+	position: sticky;
+	top: 0;
+	margin-top: 5em;
+	transform: scaleX(-1);
+}
+
+.youtubelogo {
+	width: 110px;
+	height: 110px;
+	padding: 30px 0;
+	border-radius: 50%;
+	font-size: 70px;
+	line-height: 30px;
+	text-align: center;
+	color: #fafafa;
+	background: #e80838;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	color: #ff410a;
+	font-family: "Spectral SC", serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*---------------------------------------------fan club page*/
+.fanclub-section {
+	background: url('about-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5em;
+	padding-bottom: 3em;
+}
+.store h1{
+	color: #d99438;
+	font-family: "Spectral SC", serif;
+	font-weight: 600;
+
+}
+.store a{
+	width: 90px;
+	height: 90px;
+	padding: 30px 0;
+	border-radius: 50%;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fafafa;
+	background: #e80838;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1rem;
+	border-color: #e80838;
+
+}
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: auto;
+}
+
+.btn-primary:hover{
+	background: #e8083880;
+	border-color: #e80838;
+
+}
+
+/*---------------------------------------------book us page*/
+.bookus-section {
+	background: url('about-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.question {
+	margin-top: 5em;
+}
+
+.question h3 {
+	font-family: "Spectral SC", serif;
+	font-weight: 600;
+	text-align: center;
+	color: #ff410a;
+	letter-spacing: 3px;
+}
+
+.question h5 {
+	font-size: 1.5em;
+}
+
+.center-form {
+	margin-top: 4.5em;
+	margin-bottom: 5em;
+}
+
+legend {
+	font-family: "Spectral SC", serif;
+	color: #ff410a;
+	border-bottom: 2px solid #b3b300;
+	letter-spacing: 1px;
+}
+
+label {
+	color: #b3b300;
+}
+
+.form-control {
+	color: #fafafa;
+	background: #ff38255e;
+	border-color: #b3b300
+}
+
+::placeholder {
+	color: #fafafa;
+}
+
+.btn {
+	background: #ff410a;
+	color: #f3f319;
+	font-family: "Spectral SC", serif;
+	margin-top: 2em;
+}
+
+.form-horizontal {
+	padding-top: 10px;
+	margin: 10px auto;
+	max-width: 70%;
+}
+.btn:hover {
+    color: #fafafa;
+}
+
+/*---------------------------------------------Footer*/
+footer {
+	background: #000000;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.footer-logo {
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	color: #b3b300;
+	font-family: "Spectral SC", serif;
+}
+
+.awards-img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+.awards-section {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.social-links li a i {
+	width: 38px;
+	height: 38px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 10px;
+	text-align: center;
+	color: #fafafa;
+	background: #f70438;
+	transform: :all 0.5s ease-in-out;
+	-moz-transform: all 0.5s ease-in-out;
+	-webkit-transform: all 0.5s ease-in-out;
+	-o-transform: all 0.5s ease-in-out;
+}
+
+.social-links {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social-links li a i:hover {
+	transform: scale(1.5);
+}
+
