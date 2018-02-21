@@ -90,19 +90,18 @@ audio {
 
 /*---------------------------------------------About us page*/
 .about-section {
-	background: url('about-background.jpg') no-repeat center center fixed;
+	background: url('about-background.jpg') no-repeat center  fixed;
 	background-size: cover;
 	display: flex;
 	position: relative;
 	flex-direction: column;
 	align-items: center;
 	margin: 0;
-
+	
 }
 
 .scroll {
 	margin-top: 5rem;
-
 }
 
 .scroll-image {
@@ -159,8 +158,16 @@ audio {
 	position: relative;
 	flex-direction: column;
 	align-items: center;
+	
 }
+.music-table{
+	max-width: 100%;
+	height: auto;
+}
+.music-table table tr th audio{
+	max-width: 100%;
 
+}
 .img-rounded {
 	max-width: 100%;
 	height: auto;
@@ -191,16 +198,10 @@ th {
 	display: flex;
 	position: relative;
 	justify-content: space-between;
-
-
-
-
 }
 
 .videos {
 	margin-top: 5em;
-
-
 }
 
 #speaker {
@@ -238,6 +239,7 @@ h2 {
 	color: #ff410a;
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -251,14 +253,16 @@ h2 {
 	align-items: center;
 	padding-top: 5em;
 	padding-bottom: 3em;
+
 }
-.store h1{
+
+.store h1 {
 	color: #d99438;
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
-
 }
-.store a{
+
+.store a {
 	width: 90px;
 	height: 90px;
 	padding: 30px 0;
@@ -273,17 +277,16 @@ h2 {
 	margin-left: auto;
 	margin-bottom: 1rem;
 	border-color: #e80838;
-
 }
+
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: auto;
+	background: rgba(0, 0, 0, 0.2);
+	height: auto;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
 	background: #e8083880;
 	border-color: #e80838;
-
 }
 
 /*---------------------------------------------book us page*/
@@ -346,8 +349,9 @@ label {
 	margin: 10px auto;
 	max-width: 70%;
 }
+
 .btn:hover {
-    color: #fafafa;
+	color: #fafafa;
 }
 
 /*---------------------------------------------Footer*/
@@ -411,3 +415,20 @@ h5 {
 	transform: scale(1.5);
 }
 
+@media (max-width:1024px) {
+	#speaker {
+		width: 148px;
+		height: 170px;
+	}
+
+	#speakers {
+		width: 148px;
+		height: 170px;
+	}
+
+	.videoclips iframe {
+		width: 100%;
+		height: auto;
+	}
+
+}
