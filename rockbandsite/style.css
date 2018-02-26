@@ -12,7 +12,7 @@
 	color: #f70438;
 	font-family: "Spectral SC", serif;
 	font-weight: 800;
-	font-size: 1.5em;
+	font-size: 24px;
 	letter-spacing: 2px;
 }
 
@@ -26,7 +26,7 @@
 	color: #fafafa;
 	font-family: "Spectral SC", serif;
 	font-weight: 500;
-	font-size: 1em;
+	font-size: 16px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -92,19 +92,20 @@ audio {
 .about-section {
 	background: url('about-background.jpg') no-repeat center  fixed;
 	background-size: cover;
-	display: flex;
+	display: block;
 	position: relative;
-	flex-direction: column;
 	align-items: center;
 	margin: 0;
-	
 }
 
 .scroll {
-	margin-top: 5rem;
+	margin-top: 80px;
 }
 
 .scroll-image {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .about-text {
@@ -113,9 +114,10 @@ audio {
 }
 
 .info-text {
-	padding-top: 0.5rem;
+	padding-top: 8px;
 	color: #000000;
 	font-family: "Spectral SC", serif;
+
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -137,7 +139,7 @@ audio {
 .caption h3 {
 	font-family: "Spectral SC", serif;
 	font-weight: 800;
-	font-size: 2em;
+	font-size: 32px;
 	letter-spacing: 2px;
 	text-shadow: 1px 1px #000000;
 }
@@ -145,7 +147,7 @@ audio {
 .caption p {
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 19px;
 	letter-spacing: 2px;
 	text-shadow: 1px 1px #000000;
 }
@@ -154,33 +156,27 @@ audio {
 .music-section {
 	background: url('about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
-	display: flex;
+	display: block;
 	position: relative;
-	flex-direction: column;
-	align-items: center;
-	
+	text-align: center;
 }
-.music-table{
+
+.music-table {
+	margin-top: 30px;
 	max-width: 100%;
+	display: block;
 	height: auto;
 }
-.music-table table tr th audio{
-	max-width: 100%;
 
+.music-table table tr th audio {
+	max-width: 100%;
 }
+
 .img-rounded {
 	max-width: 100%;
 	height: auto;
-	margin-top: 5em;
-	margin-bottom: 2em;
-}
-
-th {
-	color: #fafafa;
-	text-align: center;
-	font-family: "Spectral SC", serif;
-	font-size: 1em;
-	letter-spacing: 1px;
+	margin-top: 80px;
+	margin-bottom: 32px;
 }
 
 .table-hover>tbody>tr:hover {
@@ -188,35 +184,45 @@ th {
 }
 
 .table>tbody>tr>th {
-	padding-left: 12px;
+	padding: 12px;
+	color: #fafafa;
+	text-align: center;
+	font-family: "Spectral SC", serif;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 /*---------------------------------------------Videos page*/
 .videos-section {
 	background: url('about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
-	display: flex;
+	display: block;
 	position: relative;
-	justify-content: space-between;
+	text-align: center;
 }
 
-.videos {
-	margin-top: 5em;
+.videoclips {
+	margin-top: 100px;
 }
 
-#speaker {
-	float: left;
-	position: sticky;
+.speakers {
 	top: 0;
-	margin-top: 5em;
+	position: fixed;
+	margin-top: 80px;
 }
 
-#speakers {
-	float: right;
-	position: sticky;
-	top: 0;
-	margin-top: 5em;
+.speaker-left {
+	left: 20px;
+}
+
+.speaker-right {
+	right: 20px;
 	transform: scaleX(-1);
+}
+
+.go-to-youtube {
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
 
 .youtubelogo {
@@ -232,14 +238,14 @@ th {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 1rem;
+	margin-bottom: 30px;
 }
 
 h2 {
 	color: #ff410a;
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
-	font-size: 2em;
+	font-size: 32px;
 	text-align: center;
 }
 
@@ -247,19 +253,22 @@ h2 {
 .fanclub-section {
 	background: url('about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
-	display: flex;
+	display: block;
 	position: relative;
-	flex-direction: column;
 	align-items: center;
-	padding-top: 5em;
-	padding-bottom: 3em;
-
+	padding-top: 80px;
+	padding-bottom: 48px;
 }
 
 .store h1 {
 	color: #d99438;
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
+}
+
+.concerts {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .store a {
@@ -275,8 +284,14 @@ h2 {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 	border-color: #e80838;
+}
+
+.ticket-button {
+	background: #ff410a;
+	color: #f3f319;
+	font-family: "Spectral SC", serif;
 }
 
 .hvr-sweep-to-bottom:before {
@@ -285,7 +300,7 @@ h2 {
 }
 
 .btn-primary:hover {
-	background: #e8083880;
+	background-color: #e8083880;
 	border-color: #e80838;
 }
 
@@ -296,7 +311,7 @@ h2 {
 }
 
 .question {
-	margin-top: 5em;
+	margin-top: 80px;
 }
 
 .question h3 {
@@ -308,46 +323,51 @@ h2 {
 }
 
 .question h5 {
-	font-size: 1.5em;
+	font-size: 24px;
+	color: #fafafa;
 }
 
 .center-form {
-	margin-top: 4.5em;
-	margin-bottom: 5em;
+	margin-top: 72px;
+	margin-bottom: 80px;
 }
 
 legend {
 	font-family: "Spectral SC", serif;
 	color: #ff410a;
-	border-bottom: 2px solid #b3b300;
+	border-bottom: 2px solid #fafafa;
 	letter-spacing: 1px;
 }
 
 label {
-	color: #b3b300;
+	color: #fafafa;
 }
 
 .form-control {
-	color: #fafafa;
-	background: #ff38255e;
+	color: #000;
+	background-color: #f5f5f5cf;
 	border-color: #b3b300
 }
 
-::placeholder {
+input::placeholder {
 	color: #fafafa;
 }
 
-.btn {
+textarea {
+	resize: none;
+}
+
+.submit-button {
 	background: #ff410a;
 	color: #f3f319;
 	font-family: "Spectral SC", serif;
-	margin-top: 2em;
+	width: 250px;
+	font-size: 18px;
 }
 
 .form-horizontal {
 	padding-top: 10px;
 	margin: 10px auto;
-	max-width: 70%;
 }
 
 .btn:hover {
@@ -385,9 +405,9 @@ h5 {
 }
 
 .awards-section {
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
 }
 
 .social-links li a i {
@@ -395,40 +415,71 @@ h5 {
 	height: 38px;
 	padding: 12px 0;
 	border-radius: 50%;
-	font-size: 20px;
-	line-height: 10px;
+	font-size: 18px;
+	line-height: 19px;
 	text-align: center;
 	color: #fafafa;
 	background: #f70438;
-	transform: :all 0.5s ease-in-out;
-	-moz-transform: all 0.5s ease-in-out;
-	-webkit-transform: all 0.5s ease-in-out;
-	-o-transform: all 0.5s ease-in-out;
+	
 }
 
 .social-links {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .social-links li a i:hover {
 	transform: scale(1.5);
 }
+/*---------------------------------------------Media queries*/
+	@media (max-width:1366px) {
+		.videoclips iframe {
+			width: 100%;
+			height: auto;
+		}
 
-@media (max-width:1024px) {
-	#speaker {
-		width: 148px;
-		height: 170px;
+		.speakers {
+			width: 140px;
+			height: 170px;
+		}
+
+
+
 	}
 
-	#speakers {
-		width: 148px;
-		height: 170px;
+	@media (max-width:896px) and (min-width:766px) {
+		.navbar-default .navbar-brand {
+			font-size: 20px;
+		}
+
+		.navbar-default .navbar-nav>li>a {
+			font-size: 14px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+
 	}
 
-	.videoclips iframe {
-		width: 100%;
-		height: auto;
-	}
 
+
+	@media (max-width:425px) and (min-width:320px) {
+	.table>tbody>tr>th {
+		padding: 8px 2px;
+		font-size: 10px;
+	}
+	.info-text{
+		font-size: 9px;
+	}
+	.caption h3 {
+		font-size:20px; 
+
+	}
+	.caption p {
+		font-size: 16px;
+	}
 }
+
+
+
+	
