@@ -40,10 +40,7 @@
 /*---------------------------------------------Home page section*/
 .callout-container {
 	height: 100vh;
-	background: url('Guns-N-Roses.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background: url('../images/Guns-N-Roses.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -90,43 +87,31 @@ audio {
 
 /*---------------------------------------------About us page*/
 .about-section {
-	background: url('about-background.jpg') no-repeat center  fixed;
+	background: url('../images/about-background.jpg') no-repeat center  fixed;
 	background-size: cover;
 	display: block;
 	position: relative;
 	align-items: center;
 	margin: 0;
-}
-
-.scroll {
-	margin-top: 80px;
-}
-
-.scroll-image {
-	display: block;
-	width: 100%;
-	height: auto;
+	padding: 60px 20px;
 }
 
 .about-text {
+	display: block;
 	position: relative;
 	text-align: center;
-}
-
-.info-text {
-	padding-top: 8px;
-	color: #000000;
+	background-color: #262d34e6;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding: 20px;
+	color: #fafafa;
 	font-family: "Spectral SC", serif;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .thumbnail {
 	background: transparent;
 	border: none;
-	line-height: none;
+	line-height: normal;
 }
 
 .thumbnail .caption {
@@ -153,7 +138,7 @@ audio {
 
 /*---------------------------------------------Music page*/
 .music-section {
-	background: url('about-background.jpg') no-repeat center center fixed;
+	background: url('../images/about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: block;
 	position: relative;
@@ -193,7 +178,7 @@ audio {
 
 /*---------------------------------------------Videos page*/
 .videos-section {
-	background: url('about-background.jpg') no-repeat center center fixed;
+	background: url('../images/about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: block;
 	position: relative;
@@ -250,13 +235,12 @@ h2 {
 
 /*---------------------------------------------fan club page*/
 .fanclub-section {
-	background: url('about-background.jpg') no-repeat center center fixed;
+	background: url('../images/about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: block;
 	position: relative;
 	align-items: center;
-	padding-top: 80px;
-	padding-bottom: 48px;
+	padding: 60px 20px;
 }
 
 .store h1 {
@@ -264,10 +248,14 @@ h2 {
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
 }
-
 .concerts {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.store {
+	margin-top: 25px;
+	margin-bottom: 50px;
 }
 
 .store a {
@@ -279,7 +267,7 @@ h2 {
 	line-height: 30px;
 	text-align: center;
 	color: #fafafa;
-	background: #e80838;
+	background: #ff410a;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -299,13 +287,13 @@ h2 {
 }
 
 .btn-primary:hover {
-	background-color: #e8083880;
-	border-color: #e80838;
+	background-color: #ff410ab0;
+	border-color: #ff410a;
 }
 
 /*---------------------------------------------book us page*/
 .bookus-section {
-	background: url('about-background.jpg') no-repeat center center fixed;
+	background: url('../images/about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -397,16 +385,28 @@ h5 {
 	font-family: "Spectral SC", serif;
 }
 
-.awards-img {
-	height: 80px;
-	width: 80px;
-	border-radius: 50%;
+.world-music {
+	background: url(../images/worldmusicawards.jpg);
 }
 
-.awards-section {
+.mtv-music {
+	background: url(../images/MTVAwards-Logo.jpg);
+}
+
+.american-music {
+	background: url(../images/americanmusicawardslogo.jpg);
+}
+
+.award-img {
 	margin: 0 auto;
-	text-align: center;
-	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .social-links li a i {
@@ -444,6 +444,13 @@ h5 {
 
 }
 
+@media (max-width:812px) {
+	.social-links {
+		margin-bottom: 30px;
+	}
+
+}
+
 @media (max-width:896px) and (min-width:766px) {
 	.navbar-default .navbar-brand {
 		font-size: 20px;
@@ -473,6 +480,10 @@ h5 {
 
 	.caption p {
 		font-size: 16px;
+	}
+	.concerts {
+	margin-top: 25px;
+	margin-bottom: 25px;
 	}
 
 }

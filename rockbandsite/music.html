@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Spectral+SC:300,400,400i,500,600,700,800" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <header>
@@ -40,7 +40,7 @@
             <div class="container-fluid music-section">
                 <div class="row">
                     <div class="col-xs-12 col-md-12">
-                        <img src="logomusic.jpg" alt="logo" class="img-rounded">
+                        <img src="images/logomusic.jpg" alt="logo" class="img-rounded">
                     </div>
                 </div>
                 <div class="row">
@@ -54,27 +54,27 @@
                             <tr>
                                 <th>Welcome to the Jungle</th>
                                 <th>Appetite For Destruction</th>
-                                <th><audio controls="controls"><source src="WelcomeToTheJungle.mp3" type="audio/mpeg"></audio></th>
+                                <th><audio controls="controls"><source src="music/WelcomeToTheJungle.mp3" type="audio/mpeg"></audio></th>
                             </tr>
                             <tr>
                                 <th>Don't cry</th>
                                 <th>Use Your Illusion I</th>
-                                <th><audio controls="controls"><source src="don't cry.mp3" type="audio/mpeg"></audio></th>
+                                <th><audio controls="controls"><source src="music/don't cry.mp3" type="audio/mpeg"></audio></th>
                             </tr>
                             <tr>
                                 <th>You could be mine</th>
                                 <th>Use Your Illusion II</th>
-                                <th><audio controls="controls"><source src="You Could Be Mine.mp3" type="audio/mpeg"></audio></th>
+                                <th><audio controls="controls"><source src="music/You Could Be Mine.mp3" type="audio/mpeg"></audio></th>
                             </tr>
                             <tr>
                                 <th>Hair of the dog</th>
                                 <th>The Spaghetti Incident</th>
-                                <th><audio controls="controls"><source src="HairOfTheDog.mp3" type="audio/mpeg"></audio></th>
+                                <th><audio controls="controls"><source src="music/HairOfTheDog.mp3" type="audio/mpeg"></audio></th>
                             </tr>
                             <tr>
                                 <th>Scraped</th>
                                 <th>Chinese Democracy</th>
-                                <th><audio controls="controls"><source src="Scraped.mp3" type="audio/mpeg"></audio></th>
+                                <th><audio controls="controls"><source src="music/Scraped.mp3" type="audio/mpeg"></audio></th>
                             </tr>
                             
                         </table>
@@ -92,11 +92,12 @@
                 </div>
                 <div class="col-md-4 ">
                     <h5>Awards and Recognition</h5>
-                    <ul class="list-inline awards-section">
-                        <li><img src="worldmusicawards.jpg" alt="world music awards logo" class="awards-img"></li>
-                        <li><img src="MTVAwards Logo.jpg" alt="MTV Awards logo" class="awards-img"></li>
-                        <li><img src="americanmusicawardslogo.jpg" alt="american music awards logo" class="awards-img"></li>
-                    </ul>
+                    <div class="col-md-4 award-img world-music">
+                    </div>
+                    <div class="col-md-4 award-img mtv-music">
+                    </div>
+                    <div class="col-md-4 award-img american-music">
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <h5>Connect with us</h5>
@@ -110,5 +111,7 @@
                 
             </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
     </body>
 </html>
