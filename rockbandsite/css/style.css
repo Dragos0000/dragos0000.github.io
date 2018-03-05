@@ -99,7 +99,7 @@ audio {
 .about-text {
 	display: block;
 	position: relative;
-	text-align: center;
+	text-align: justify;
 	background-color: #262d34e6;
 	margin-top: 25px;
 	margin-bottom: 50px;
@@ -279,6 +279,7 @@ h2 {
 	background: #ff410a;
 	color: #f3f319;
 	font-family: "Spectral SC", serif;
+	border: none;
 }
 
 .hvr-sweep-to-bottom:before {
@@ -468,10 +469,6 @@ h5 {
 	.table>tbody>tr>th {
 		padding: 8px 2px;
 		font-size: 10px;
-	}
-
-	.info-text {
-		font-size: 9px;
 	}
 
 	.caption h3 {
