@@ -93,7 +93,7 @@ audio {
 	position: relative;
 	align-items: center;
 	margin: 0;
-	padding: 60px 20px;
+	padding: 100px 20px;
 }
 
 .about-text {
@@ -143,6 +143,7 @@ audio {
 	display: block;
 	position: relative;
 	text-align: center;
+	padding: 60px 20px;
 }
 
 .music-table {
@@ -159,8 +160,8 @@ audio {
 .img-rounded {
 	max-width: 100%;
 	height: auto;
-	margin-top: 80px;
 	margin-bottom: 32px;
+	margin-top: 30px;
 }
 
 .table-hover>tbody>tr:hover {
@@ -183,10 +184,11 @@ audio {
 	display: block;
 	position: relative;
 	text-align: center;
+	padding: 60px 20px;
 }
 
 .videoclips {
-	margin-top: 100px;
+	margin-top: 40px;
 }
 
 .speakers {
@@ -248,9 +250,10 @@ h2 {
 	font-family: "Spectral SC", serif;
 	font-weight: 600;
 }
+
 .concerts {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .store {
@@ -296,10 +299,7 @@ h2 {
 .bookus-section {
 	background: url('../images/about-background.jpg') no-repeat center center fixed;
 	background-size: cover;
-}
-
-.question {
-	margin-top: 80px;
+	padding: 60px 20px;
 }
 
 .question h3 {
@@ -316,7 +316,6 @@ h2 {
 }
 
 .center-form {
-	margin-top: 72px;
 	margin-bottom: 80px;
 }
 
@@ -325,6 +324,7 @@ legend {
 	color: #ff410a;
 	border-bottom: 2px solid #fafafa;
 	letter-spacing: 1px;
+	padding-top: 30px;
 }
 
 label {
@@ -351,6 +351,7 @@ textarea {
 	font-family: "Spectral SC", serif;
 	width: 250px;
 	font-size: 18px;
+	margin-top: 40px;
 }
 
 .form-horizontal {
@@ -420,15 +421,22 @@ h5 {
 	text-align: center;
 	color: #fafafa;
 	background: #f70438;
-}
-
-.social-links {
-	margin: 0 auto;
-	text-align: center;
+	-webkit-transition: transform 0.3s ease-in-out;
+	-o-transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 }
 
 .social-links li a i:hover {
 	transform: scale(1.5);
+}
+
+.social-links {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.footer-heading {
+	margin: 15px 0;
 }
 
 /*---------------------------------------------Media queries*/
@@ -447,27 +455,43 @@ h5 {
 
 @media (max-width:992px) {
 	.social-links {
-		margin-bottom: 30px;
+		margin: 30px 0;
+		text-align: center;
+	}
+
+	.award-img {
+		margin: 20px auto;
+	}
+
+	.footer-heading {
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.table>tbody>tr>th {
+		font-size: 14px;
 	}
 
 }
 
-@media (max-width:896px) and (min-width:766px) {
+@media (max-width:991px) {
 	.navbar-default .navbar-brand {
 		font-size: 20px;
 	}
 
-	.navbar-default .navbar-nav>li>a {
-		font-size: 14px;
-		padding-left: 10px;
-		padding-right: 10px;
+	.navbar-default .navbar-nav > li > a {
+		padding-left: 7px;
+		padding-right: 7px;
 	}
 
 }
 
 @media (max-width:425px) and (min-width:320px) {
 	.table>tbody>tr>th {
-		padding: 8px 2px;
+		padding: 8px 4px;
 		font-size: 10px;
 	}
 
@@ -478,9 +502,18 @@ h5 {
 	.caption p {
 		font-size: 16px;
 	}
+
 	.concerts {
-	margin-top: 25px;
-	margin-bottom: 25px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.about-text {
+		font-size: 10px;
+	}
+
+	.question h5, h3 {
+		font-size: 21px;
 	}
 
 }
