@@ -486,6 +486,12 @@ h5 {
 		padding-left: 7px;
 		padding-right: 7px;
 	}
+	.jumbotron p{
+		font-size: 15px;
+	}
+	.jumbotron h1{
+		font-size: 25px;
+	}
 
 }
 
