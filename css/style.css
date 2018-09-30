@@ -37,6 +37,11 @@
 	transition-timing-function: ease-in-out;
 }
 
+.navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover {
+ 	background-color: transparent;
+ }
+
 /*---------------------------------------------Home page section*/
 .callout-container {
 	height: 100vh;
@@ -290,7 +295,10 @@ h2 {
 	height: auto;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary:active:focus,
+.btn-primary:focus {
 	background-color: #ff410ab0;
 	border-color: #ff410a;
 }
