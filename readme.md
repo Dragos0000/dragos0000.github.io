@@ -2,7 +2,7 @@
 
 ----
 ## What is this?
-[Click here to see a live version of the website](https://dragos0000.github.io/rockbandsite/index.html)
+[Click here to see a live version of the website](https://dragos0000.github.io/rock-band-website-project/)
 
 > This is my first website that I ever build.In this project, I have build a frontend-only and responsive website using the technologies that I have learned throughout User Centric Frontend Development course. 
 
@@ -32,3 +32,19 @@
 
 ## About project:
 >In terms of the overall look and feel of the site, I wanted it to be fairly simple but effective. I tried to use only a few colors and same background image for the different pages to make it simple but also consistent and easy for the user eye. I wanted the navigation to be simple and explicit.There for we have in the navigation bar Home, About us, Music, Videos, Fan Club and Book us. The Home page is very simple and it shows a picture of the band and info for the fans in Europe.About us page is with some information about the band not too much because the user will get bored and also there is Wikipedia if you want the entire history of the band. Music and Videos page like the name suggests you have here tracks/ videos to listen too . Fan club page is the section for their fans where they can buy tickets for the concerts and also visit the band gift shop.And finally the book us page is for those who wants to hire the band to sing live at their events by simply completing a form. I have used Bootstrap for the grid system, CSS styles, key frames and media quires and HTML5 structure.The only thing that is bordering me in this project is that i couldn't style the audio element (<audio>) using only CSS.      
+
+## Deployment 
+I used GitHub Pages for deployment using my master branch as the source.
+
+## Testing 
+For the testing I used :
+* Google Developer Tools (responsive mode)
+* Running the website in different browsers 
+* Running the website on different devices phones and tablets (apple, android)
+
+## Credits 
+### Content  ###
+The text about the band was copied from the Wikipedia 
+### Media  ###
+The photos in the site were obtained from Google.
+The videos are from Vimeo.
